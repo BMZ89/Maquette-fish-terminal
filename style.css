@@ -1,0 +1,176 @@
+/*font & background image*/
+@font-face {
+    font-family: slabo;
+    src: url(./font/Slabo_27px/Slabo27px-Regular.ttf)
+}
+
+@font-face {
+    font-family: open sans;
+    src: url(./font/Open_Sans/OpenSans-Regular.ttf)
+}
+
+html {
+    background-image: url(./img/fond.png);
+}
+
+/*header*/
+header {
+    background-color: #34B1B2;
+    border: #2b9aa0 solid 3px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+nav,
+nav ul,
+nav ul li {
+    display: inline-block;
+}
+
+nav {
+    font-family: slabo;
+    position: relative;
+    right: 340px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: slabo;
+    padding: 20px;
+    font-size: 1.16em;
+
+}
+
+img {
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    margin-right: 270px;
+}
+
+/*Main*/
+main {
+    min-width: 800px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h3 {
+    font-family: slabo;
+    word-spacing: 0.5em;
+    font-size: 2em;
+}
+
+p {
+    font-family: open sans;
+}
+
+.section1 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: #454A54;
+}
+
+.section2 {
+    background-color: #b6dedc;
+    width: 62%;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+article>img {
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+h2,
+h4 {
+    font-family: slabo;
+}
+
+h2 span {
+    color: #319DA3;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+article {
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    overflow: auto;
+}
+
+.article1 {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.article2 {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+h4 {
+    text-align: center;
+    color: #454A54;
+    font-size: 1.3em;
+}
+.button {
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #25b3b4;
+    color:#fff
+}
+/*aside*/
+aside {
+    width: 20%;
+    display: inline-block;
+    background-color: #34b1b2;
+    border: 5px solid #2b9aa0;
+    padding: 20px;
+    margin-left: 10px;
+    padding-bottom: 80px;
+    vertical-align: top;
+    color: white;
+    position: relative;
+    /*la hauteur */
+}
+
+aside>img {
+    float: right;
+    position: absolute;
+    top: -50px;
+    right: -80px;
+}
+h4 span,
+h5 {
+    color: #b6dedc;
+}
+div {
+   display: block;
+}
+/*footer*/
+footer img {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+footer p {
+    text-align: center;
+}
+footer p a:hover {
+    background-color: aqua;
+}
