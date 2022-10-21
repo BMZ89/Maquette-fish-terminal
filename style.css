@@ -85,6 +85,14 @@ span {
     text-align: justify;
     width: 290px;
 }
+.fa-droplet {
+    color:#25b3b4;
+    font-size: 0.5em;
+    padding: 10px;
+}
+.fa-comment {
+    color: #91e9ee;
+}
 article img {
     border-radius: 50%;
     float: left;
